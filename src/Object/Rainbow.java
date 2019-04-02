@@ -1,3 +1,5 @@
+package Object;
+
 //练习11
 public class Rainbow {
 	public static void main(String[] args) {

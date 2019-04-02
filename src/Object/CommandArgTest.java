@@ -1,5 +1,6 @@
+package Object;
 
-//Á·Ï°10: ´òÓ¡´ÓÃüÁîĞĞÖĞ»ñÈ¡µÄ3¸ö²ÎÊı
+//ç»ƒä¹ 9ï¼šå±•ç¤ºè‡ªåŠ¨åŒ…è£…åŠŸèƒ½å¯¹æ‰€æœ‰åŸºæœ¬ç±»å‹å’ŒåŒ…è£…å™¨éƒ½èµ·ä½œç”¨
 //java CommandArgTest a b c
 public class CommandArgTest{
     public static void main(String[] args){

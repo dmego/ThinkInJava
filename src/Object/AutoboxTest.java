@@ -1,4 +1,6 @@
-//Á·Ï°9£ºÕ¹Ê¾×Ô¶¯°ü×°¹¦ÄÜ¶ÔËùÓĞ»ù±¾ÀàĞÍºÍ°ü×°Æ÷¶¼Æğ×÷ÓÃ
+package Object;
+
+//ç»ƒä¹ 9ï¼šå±•ç¤ºè‡ªåŠ¨åŒ…è£…åŠŸèƒ½å¯¹æ‰€æœ‰åŸºæœ¬ç±»å‹å’ŒåŒ…è£…å™¨éƒ½èµ·ä½œç”¨
 public class AutoboxTest{
     public static void main(String[] args){
         boolean b = false;

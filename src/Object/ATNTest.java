@@ -1,7 +1,9 @@
-//练习4
-public class DataOnlyTest{
+package Object;
+
+//练习3: ATypeName
+public class ATNTest{
     public static void main(String[] args){
-        class DataOnly{
+        class ATypeName{
             int i;
             double d;
             boolean b;
@@ -12,10 +14,10 @@ public class DataOnlyTest{
             }
         }
 
-        DataOnly data = new DataOnly();
-        data.i = 3;
-        data.d = 2.71828;
-        data.b = false;
-        data.show();
+        ATypeName a = new ATypeName();
+        a.i = 3;
+        a.d = 2.73783;
+        a.b = true;
+        a.show();
     }
 }

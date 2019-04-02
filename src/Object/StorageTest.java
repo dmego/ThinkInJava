@@ -1,3 +1,5 @@
+package Object;
+
 //练习6
 public class StorageTest{
     public static void main(String[] args){

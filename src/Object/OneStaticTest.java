@@ -1,16 +1,20 @@
-//Á·Ï°7£ºIncrementable ´úÂë¸ÄĞ´£¬Ö÷Òª²âÊÔ static ¹Ø¼ü×ÖµÄ×÷ÓÃ
-class StaticTest{
-    static int i = 47;
-} 
+package Object;
 
-class Incrementable{
-    static void increment(){
-        StaticTest.i++;
-    }
-}
+//ç»ƒä¹ 8ï¼šæ— è®ºåˆ›å»ºæŸä¸ªç‰¹å®šç±»çš„å¤šå°‘ä¸ªå¯¹è±¡ï¼Œè¿™ä¸ªç±»ä¸­çš„æŸä¸ªç‰¹å®šçš„staticåŸŸåªæœ‰ä¸€ä¸ªå®ä¾‹
 
-public class ITest{
+//class StaticTest{
+//    static int i = 47;
+//} 
+//
+//class Incrementable{
+//    static void increment(){
+//        StaticTest.i++;
+//    }
+//}
+
+public class OneStaticTest{
     public static void main(String[] args){
+    	
         System.out.println("StaticTest.i = "+ StaticTest.i);
         StaticTest st1 = new StaticTest();
         StaticTest st2 = new StaticTest();
@@ -22,8 +26,16 @@ public class ITest{
         System.out.println("st1.i = "+ st1.i);
         System.out.println("st2.i = "+ st2.i);
         Incrementable.increment();
-        System.out.println("After Incrementable.increment called: ");
+        System.out.println("After Incrementable.increment() called: ");
         System.out.println("st1.i = "+ st1.i);
         System.out.println("st2.i = "+ st2.i);
+
+        st1.i = 3;
+        System.out.println("After st1.i = 3");
+        System.out.println("st1.i = "+ st1.i);
+        System.out.println("st2.i = "+ st2.i);
+        StaticTest st3 = new StaticTest();
+        System.out.println("st3.i = " +st3.i);
+        
     }
 }

@@ -1,3 +1,5 @@
+package Object;
+
 //练习1：验证Java默认执行了初始化
 public class PrimitiveTest{
     int a;

@@ -1,5 +1,7 @@
-//练习5
-public class DataOnlyTest2{
+package Object;
+
+//练习4
+public class DataOnlyTest{
     public static void main(String[] args){
         class DataOnly{
             int i;
@@ -13,9 +15,9 @@ public class DataOnlyTest2{
         }
 
         DataOnly data = new DataOnly();
-        data.i = 234;
-        data.d = 2.345212;
-        data.b = true;
+        data.i = 3;
+        data.d = 2.71828;
+        data.b = false;
         data.show();
     }
 }
